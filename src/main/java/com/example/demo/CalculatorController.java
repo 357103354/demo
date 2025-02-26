@@ -9,7 +9,8 @@ public class CalculatorController {
 
     @GetMapping("/add")
     public int add(@RequestParam int a, @RequestParam int b) {
-        System.out.println("a: " + a + ", b: " + b);
+        System.out.println("-----a: " + a + ", b: " + b);
+
         return a + b;
     }
 }
